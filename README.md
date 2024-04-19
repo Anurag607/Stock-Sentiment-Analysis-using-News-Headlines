@@ -10,6 +10,8 @@
 
 ### Data Collection
 
+- Using the given dataset (.csv file)
+
 ### Data Pre-processing
 
 - Cleaned and preprocessed text data to remove noise, special characters, and punctuation.
@@ -42,3 +44,6 @@
    ![Stop word removal using NLTK](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Stop-word-removal-using-NLTK.png)
 
 2. **Stremmer :** The process of producing morphological variants of a root/base word. Stemming programs are commonly referred to as stemming algorithms or stemmers. A stemming algorithm reduces the words “chocolates”, “chocolatey”, and “choco” to the root word, “chocolate” and “retrieval”, “retrieved”, “retrieves” reduce to the stem “retrieve”. Used in `from nltk.stem import PorterStemmer`
+3. **Precision:** Precision measures the accuracy of positive predictions. It is the proportion of true positives against all the positives predicted by the model. This metric is particularly important when the cost of a false positive is high. **Precision = True Positives (TP) / (True Positives (TP) + False Positives (FP))**
+4. **Recall (Sensitivity) :** Recall measures the ability of a model to find all the relevant cases (i.e., true positives) within a dataset. It is the proportion of actual positives that were correctly identified. This metric is crucial when the cost of a false negative is high. **Recall = True Positives (TP) / (True Positives (TP) + False Positives (FN))**
+5. **F1 Score :** The F1 score is the harmonic mean of precision and recall. It is used as a single metric to balance both the precision and recall of a binary classification model. It is particularly useful when you want to find a balance between precision and recall and there is an uneven class distribution (large number of actual negatives).
