@@ -3,7 +3,8 @@
 1. Develop a sentiment-based stock market analysis system to predict stock price movements by analyzing and interpreting sentiment data from news articles, social media, and other sources.
 2. The system should identify and categorize sentiment as positive, negative, or neutral and then correlate this sentiment data with historical stock market data to provide insights into potential price trends.
 3. The goal is to create a predictive model that helps traders and investors make informed decisions based on sentiment analysis.
-4. [Dataset Used](https://drive.google.com/file/d/1TofKCCkTKKDeXtHvyw4GT-N3DiyPcvyq/view?usp=sharing)
+4. [Presentation Link](https://docs.google.com/presentation/d/1LBmARgbd_I-7k4FbuzoT4gE_axkdfUrc-txeirvlaoY/edit?usp=sharing)
+5. [Dataset Used](https://drive.google.com/file/d/1TofKCCkTKKDeXtHvyw4GT-N3DiyPcvyq/view?usp=sharing)
 
 # IMPLEMENTATION STEPS :
 
