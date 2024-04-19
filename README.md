@@ -34,3 +34,11 @@
 
 - Evaluated the Random Forest model's performance using metrics like accuracy, precision, recall, F1-score, and confusion matrices.
 - Analyzed feature importance to identify influential words.
+
+# Common Terms and Functions :
+
+1. **Stopwords :** A stop word is a commonly used word (such as “the”, “a”, “an”, or “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query. Used in `from nltk.corpus import stopwords`
+
+   ![Stop word removal using NLTK](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Stop-word-removal-using-NLTK.png)
+
+2. **Stremmer :** The process of producing morphological variants of a root/base word. Stemming programs are commonly referred to as stemming algorithms or stemmers. A stemming algorithm reduces the words “chocolates”, “chocolatey”, and “choco” to the root word, “chocolate” and “retrieval”, “retrieved”, “retrieves” reduce to the stem “retrieve”. Used in `from nltk.stem import PorterStemmer`
